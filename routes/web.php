@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/other-test/', function () {
+    return view('welcome');
+});
+
+Route::get('/test/', 'PagesController@test');
